@@ -1,0 +1,368 @@
+/*
+tipografias a utilizar
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+Paleta de colores = #2c3e50, #18bc9c, #212529.
+ */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .container{
+     width: 1200px;
+     margin-right:auto;
+     margin-left: auto;
+     padding-left: 14px;
+     padding-right: 14px; 
+ }
+ .container:before, .container:after{
+     content: " ";
+     display: table;
+ }
+ *:before, *:after{
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ .text-uppercase{
+     text-transform: uppercase;
+ }
+header {
+    height: 80px;
+    width: 100%;
+    background-color:rgb(44, 62, 80);
+    color: white;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+nav {
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+    float: right;
+}
+header span{
+/*outline: 1px solid green;*/
+    float: left;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+header nav ul{
+    margin-top:10px; 
+    margin-right: 100px;
+    /*outline: 1px solid red;*/
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    font-weight: bold;
+    font-size:15px ;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}
+body .firstSection{
+    margin-top: 80px;
+    background-color: #18bc9c;
+    height: 670px;
+    width: 100%;
+}
+.firstSection figure{
+    padding-top:60px;
+    margin-left: 40%;
+}
+.firstSection h1{
+    margin-top:30px;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.firstSection .line{
+    background-color:white;
+    border: 0px;
+    display: inline-block;
+    height: 5px;
+    margin-left:5px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.firstSection span{
+    font-size: 35px;
+}
+.firstSection h4{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 23px;    
+}
+.secondSection{
+    text-align: center;
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    /*outline: 1px solid green;*/
+}
+.secondSection h1{
+    margin-top:100px;
+    text-align: center;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.secondSection .line{
+    background-color:rgb(44, 62, 80);
+    border: 0px;
+    display: inline-block;
+    height: 5px;
+    margin-left:0px;
+    width: 80px;
+    margin-bottom: 6px;
+}
+.secondSection span{
+    margin: 5px;
+    font-size: 25px;
+    color: rgb(44, 62, 80);
+}
+.secondSection .imagesSquare{
+    /*outline:1px solid red;*/
+    float: left;
+    width: 100%;
+}
+
+.secondSection .imagesSquare img{
+    margin:10px;
+    height: 230px;
+    width: 320px;
+}
+.thirdSection{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #18bc9c;
+    color: white;
+    height: 520px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.thirdSection .line{
+    background-color:rgb(255, 255, 255);
+    border: 0px;
+    display: inline-block;
+    height: 5px;
+    margin-left:0px;
+    margin-bottom: 6px;
+    width: 80px;   
+}
+.thirdSection span{
+    margin: 5px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.thirdSection h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+.thirdSection .text h4{
+    text-align: center;
+    width: 310px;
+    float: left;
+    margin-right: 10px;
+    text-align: left;
+}
+.thirdSection .text{
+    /*outline: 1px solid purple;*/
+    box-sizing: border-box;
+    padding-left: 27%;
+    height: 210px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.thirdSection button{
+    border: 3px white solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px; 
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 1s;
+}
+.thirdSection button:hover{
+    background-color: white;
+    color: #18bc9c;
+}
+.fourSection{
+    box-sizing: border-box;
+    padding-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.fourSection h1{
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.fourSection .line{
+    background-color:rgb(44, 62, 80);
+    border: 0px;
+    display: inline-block;
+    height: 5px;
+    margin-left:0px;
+    margin-bottom: 6px;
+    width: 80px;   
+    line-height: 1.2px;
+}
+.fourSection span{
+    margin: 5px;
+    font-size: 25px;
+    color: rgb(44, 62, 80);
+}
+.fourSection form{
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+.fourSection .input{
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    padding: 5px; 
+    display: block;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    width:660px;
+    height: 60px;
+    font-size: 20px; 
+}
+.fourSection .input:focus, .message:focus{
+    outline: 0;
+    border-bottom: 2px solid gray;
+}
+.fourSection .message{
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    padding: 5px; 
+    display: block;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width:660px; 
+    border-bottom: 1px solid rgb(216, 216, 216);
+    font-size: 20px; 
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.fourSection button{
+    float: left;
+    border: 3px white solid;
+    border-radius: 10px;
+    height: 50px;
+    width: 70px; 
+    background-color: #18bc9c;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+}
+.fourSection button:hover{
+    transition: 1s;
+    background-color: #0b6654;
+}
+footer{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    height: 340px;
+    width: 100%;
+    background-color: rgb(44, 62, 80);
+    float: left;
+    padding: 20px;
+}
+footer .contentOne{
+    /*outline: 1px solid red;*/
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+footer .contentOne div{
+    color: white;
+    margin: 0 auto;
+    /*outline: 1px solid green;*/
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 50px;
+}
+footer .contentOne .left{
+    margin-left: 100px;
+}
+footer .contentOne  h1{
+    margin-bottom: 30px;
+}
+footer .contentOne h4{
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.contentOne .center .circle{
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px white solid;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    position: relative;
+    left: 20px;
+}
+.contentOne .center .circle:hover{
+    background-color: white;
+    color: #18bc9c;
+    transition: 0.5s;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.contentOne .right h1{
+    font-size: 1.80em;
+    font-weight: bolder;
+}
+.contentOne .right h4 a{
+    text-decoration: none;
+    color: #18bc9c;
+}
+footer .contentTwo{
+    box-sizing: border-box;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
